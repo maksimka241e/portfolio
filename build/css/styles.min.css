@@ -1,0 +1,1804 @@
+.CardsBlocks{
+    display: none; 
+    align-items:center;
+    justify-content:center;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.534);
+    opacity: 0;
+    animation: ani 1.3s forwards;
+}
+.anima{
+    animation: anim 1.3s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes anim {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+.CardsBlocks1{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock1Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock1Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards1{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocksImage{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton1{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards1{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards1{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards1{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards1:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocksTabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cardsTabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cardsTabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cardsTabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cardsTabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cardsTabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cardsTabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+/* cards2 */
+.CardsBlocks2{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock2Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock2Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards2{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocks1Image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton2{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards2{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards2{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards2{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards2:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocks1Tabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cards2Tabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards2Tabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards2Tabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards2Tabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards2Tabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards2Tabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+/* cards3 */
+.CardsBlocks3{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock3Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock3Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards3{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocks2Image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton3{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards3{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards3{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards3{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards3:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocks2Tabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cards3Tabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards3Tabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards3Tabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards3Tabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards3Tabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards3Tabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+
+/* cards4 */
+.CardsBlocks4{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock4Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock4Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards4{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocks3Image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton4{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards4{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards4{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards4{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards4:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocks3Tabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cards4Tabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards4Tabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards4Tabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards4Tabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards4Tabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards4Tabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+/* cards5 */
+.CardsBlocks5{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock5Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock5Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards5{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocks4Image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton4{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards5{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards5{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards5{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards5:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocks4Tabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cards5Tabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards5Tabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards5Tabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards5Tabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards5Tabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards5Tabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+/* cards6 */
+.CardsBlocks6{
+    cursor: pointer;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 100px;
+    background: #f7f8fb;
+    height: 80%;
+    flex-direction: column;
+}
+.divBlock6Not{
+    cursor: pointer;
+    display: flex;
+    background:none;
+    margin-top: -55px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    transition: 0.4s;
+}
+.divBlock6Not:hover{
+    transition: 0.4s;
+    color: rgba(0, 0, 0, 0.849);
+}
+.imgBlock1Cards6{
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+.cardsBlocks5Image{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+.blocksButton5{
+    display: flex;
+    justify-content: end;
+}
+.img1Block1Cards6{
+    width: 32px;
+    height: 24px;
+}
+.TitlesBlock1Cards6{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextBlock1Cards6{
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextBlock1Cards6:hover{ 
+    text-decoration: underline;
+}
+.cardsBlocks5Tabs{
+    margin-top: -20px;
+    gap: 10px;
+    display: flex;
+}
+.cards6Tabs1{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards6Tabs2{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards6Tabs3{
+    background: rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    transition: 0.4s;
+}
+.cards6Tabs1:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards6Tabs2:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.cards6Tabs3:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+@media(max-width:1085px){
+}
+@media(max-width:750px){
+}
+@media(max-width:680px){
+    .CardsBlocks1 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards1 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    .CardsBlocks2 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards2 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    .CardsBlocks3 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards3 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    .CardsBlocks4 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards4 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    .CardsBlocks5 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards5 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+    .CardsBlocks6 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 100px;
+        background: #f7f8fb;
+        height: 50%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards6 {
+        border-radius: 20px;
+        width: 100%;
+        height: 50%;
+    }
+}
+@media(max-width:550px){
+    /* cards1 */
+    .CardsBlocks1 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards1 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .img1Block1Cards1 {
+        margin-top: -30px;
+    }
+    .TextBlock1Cards1{
+        font-size: 17px;
+    }
+    /* cards2 */
+    .CardsBlocks2 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards2 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .img1Block1Cards2 {
+        margin-top: -30px;
+    }
+    .TextBlock1Cards2{
+        font-size: 17px;
+    }
+    /* cards3 */
+    .CardsBlocks3 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards3 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .img1Block1Cards3 {
+        margin-top: -10px;
+    }
+    .TextBlock1Cards3{
+        font-size: 17px;
+    } 
+    /* cards4 */
+    .CardsBlocks4 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards4 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .img1Block1Cards4 {
+        margin-top: -30px;
+    }
+    .TextBlock1Cards4{
+        font-size: 17px;
+    }
+    /* cards5 */
+    .CardsBlocks5 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .imgBlock1Cards5 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .img1Block1Cards5 {
+        margin-top: -10px;
+    }
+    .TextBlock1Cards5{
+        font-size: 17px;
+    }
+    /* cards6 */
+    .CardsBlocks6 {
+        padding: 20px;
+        width: 100%;
+        margin: 200px 100px 200px 90px;
+        background: #f7f8fb;
+        height: 40%;
+        flex-direction: column;
+    }
+    .img1Block1Cards6 {
+        margin-top: -10px;
+    }
+    .imgBlock1Cards6 {
+        border-radius: 20px;
+        width: 100%;
+        height: 40%;
+    }
+    .TextBlock1Cards6{
+        font-size: 17px;
+    }
+}
+@media(max-width:503px){
+    .img1Block1Cards3 {
+        margin-top: -30px;
+    }
+    .img1Block1Cards5 {
+        margin-top: -30px;
+    }
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.aboutBlock1{
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    background: #f7f8fb;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas: 'block1 block2 block3 block4';
+}
+.aboutImg{
+    width: 64px;
+    height: 62px;
+}
+.aboutMinBlock1{
+    margin-left: 40px;
+    grid-area: block1;
+    display: flex;
+    align-items: center;
+}
+.aboutTitles1{
+    font-size: 23px;
+    color: #0F161E;
+    cursor: pointer;
+}
+.aboutTitles1:hover{
+    color: gray;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+.aboutTitles2{
+    text-decoration: none;
+    font-size: 23px;
+    color: #0F161E;
+    font-weight: 700;
+    cursor: pointer;
+}
+.aboutTitles2:hover{
+    color: gray;
+    transition: 0.4s;
+    text-decoration: underline; 
+}
+.aboutMinBlock2{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 15px;
+    grid-area: block4;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    margin-right: 50px;
+}
+.aboutImg1{
+    margin-top: 5px;
+    width: 16px;
+    height: 18px;
+}
+.aboutBLock2{
+    padding-left: 60px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutBlock2Mini{
+    padding-top: 100px;
+    height: 600px;
+    background:-webkit-linear-gradient(#77DDE7  20%, #f7f8fb);
+}
+.aboutTitles3{
+    cursor: default;
+    height: 20px;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aboutTitles4{
+    cursor: default;
+    height: 40px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0F161E;
+}
+.aboutTitles5{
+    cursor: default;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0F161E;
+}
+.aboutTitles6{
+    cursor: default;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0F161E;
+}
+@media(max-width:917px){
+    .aboutTitles6 {
+        cursor: default;
+        margin-top: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+@media(max-width:754px){
+    .aboutTitles6 {
+        cursor: default;
+        margin-top: 50px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .aboutMinBlock1 {
+        margin-left: 0px;
+    }
+    .aboutMinBlock2 {
+        margin-right: 0px;
+    }
+}
+@media(max-width:637px){
+    .aboutTitles4 {
+        cursor: default;
+        height: 40px;
+        font-size: 26px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #0F161E;
+    }
+    .aboutTitles6 {
+        cursor: default;
+        margin-top: 80px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+@media(max-width:594px){
+    .aboutTitles4 {
+        cursor: default;
+        height: 40px;
+        font-size: 26px;
+        margin-bottom: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #0F161E;
+    }
+}
+@media(max-width:587px){
+    .aboutTitles4 {
+        cursor: default;
+        height: 40px;
+        font-size: 26px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #0F161E;
+    }
+    .aboutTitles6 {
+        cursor: default;
+        margin-top: 80px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .aboutTitles3 {
+        cursor: default;
+        height: 20px;
+        font-size: 55px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+@media(max-width:571px){
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 26px;
+    }
+    .aboutTitles6{
+        margin-top: 80px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .aboutTitles5 {
+        height: 70px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 55px;
+    }
+}
+@media(max-width:548px){
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 25px;
+    }
+    .aboutTitles6{
+        margin-top: 100px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles5 {
+        height: 70px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 52px;
+    }
+    .aboutBLock2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:498px){
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 25px;
+    }
+    .aboutTitles6{
+        margin-top: 100px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles5 {
+        height: 70px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 50px;
+    }
+    .aboutBLock2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:481px){
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 45px;
+    }
+}
+@media(max-width:447px){
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 25px;
+    }
+    .aboutTitles6{
+        margin-top: 130px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles5 {
+        height: 70px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 45px;
+    }
+}
+@media(max-width:447px){
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 25px;
+    }
+    .aboutTitles6{
+        margin-top: 130px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles5 {
+        height: 70px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 40px;
+    }
+    .aboutBLock2 {
+        padding-right: 20px;
+        padding-left: 20px;
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:403px){
+    .aboutTitles6{
+        margin-top: 150px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 22px;
+    }
+}
+@media(max-width:386px){
+    .aboutTitles6{
+        margin-top: 170px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles4 {
+        height: 40px;
+        font-size: 22px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 35px;
+    }
+}
+@media(max-width:386px){
+    .aboutTitles6{
+        margin-top: 190px;
+        height: 30px;
+        font-size: 19px;
+    }
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 35px;
+    }
+    .aboutBLock2 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .aboutTitles4 { 
+        margin-bottom: 60px;
+        height: 40px;
+        font-size: 22px;
+    }
+}
+@media(max-width:309px){
+    .aboutTitles3 {
+        height: 20px;
+        font-size: 30px;
+    } 
+}
+.footer{
+    border-top: 2px solid #000;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'footer1 footer2';
+    background: #f7f8fb;
+    padding-right: 50px;
+    padding-left:50px;
+    padding-top: 40px;
+}
+.footerTitles1{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerTitles2{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerTitles1:hover{
+    color: #0000006e;
+}
+.footerTitles2:hover{
+    color: #0000006e;
+}
+.footerBlock1{
+    display: grid;
+    grid-area: footer1;
+}
+.footerBlock2{
+    margin-top: 50px;
+    display: grid;
+    grid-area: footer1;
+}
+.footerBlock3{
+    display: grid;
+    justify-content: end;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    grid-area: footer2;
+}
+.footerBlock4{
+    display: grid;
+    justify-content: end;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 50px;
+    grid-area: footer2;
+}
+.footerBlock6{
+    display: grid;
+    justify-content: end;
+
+}
+.footerTitles3{
+    cursor: default;
+    color: #0000006e;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerTitles4{
+    text-decoration: underline;
+    cursor: default;
+    color: #0000006e;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* img */
+.footerImages1{
+    cursor: pointer;
+}
+.footerImages2{
+    cursor: pointer;
+}
+.footerImages3{
+    cursor: pointer;
+}
+.footerImages4{
+    cursor: pointer;
+}
+.footerImages5{
+    cursor: pointer;
+}
+.footerImages6{
+    cursor: pointer;
+}
+.footerImages7{
+    cursor: pointer;
+}
+.footerImages8{
+    cursor: pointer;
+}
+@media(max-width:600px){
+    .footerBlock3{
+        grid-template-columns: auto auto;
+        align-content: space-between;
+        display: none;
+    }
+    .footerBlock4{
+        margin-top: -10px;
+        grid-template-columns: auto auto;
+    }
+    .footerTitles4{
+        font-size: 17px;
+    }
+    .footerTitles3{
+        font-size: 17px;
+    }
+}
+@media(max-width:524px){
+    .footerBlock3{
+        grid-template-columns: auto auto;
+        align-content: space-between;
+        display: none;
+    }
+    .footerBlock4{
+        margin-top: -10px;
+        grid-template-columns: auto auto;
+    }
+    .footerTitles4{
+        font-size: 15px;
+    }
+    .footerTitles3{
+        font-size: 15px;
+    }
+}
+@media(max-width:481px){
+    .footerTitles2{
+        font-size: 18px;
+    }
+    .footerTitles1{
+        font-size: 18px;
+    }
+}
+@media(max-width:440px){
+    .footer {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+}
+@media(max-width:377px){
+    .footer {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+}
+@media(max-width:357px){
+    .footer {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+    .footerTitles2{
+        font-size: 16px;
+    }
+    .footerTitles1{
+        font-size: 16px;
+    }
+    .footerTitles4{
+        font-size: 13px;
+    }
+    .footerTitles3{
+        font-size: 13px;
+    }
+}
+@media(max-width:329px){
+    .footer {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+    .footerTitles2{
+        font-size: 14px;
+    }
+    .footerTitles1{
+        font-size: 14px;
+    }
+    .footerTitles4{
+        font-size: 13px;
+    }
+    .footerTitles3{
+        font-size: 13px;
+    }
+}
+.productsDiv{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background:#f7f8fb;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.productsTitles{
+    cursor: default;
+    display: grid;
+    justify-content: center;
+    background: #f7f8fb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.titlesPro{ 
+    cursor: pointer;
+    transition: 0.4s;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom:20px;
+    font-size: 40px; 
+}
+.titlesPro:hover{
+    transition: 0.4s;
+    text-decoration: underline solid #77DDE7;
+}
+/* Cards1 */
+.productsCards1{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards1:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards1{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards1{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards1:hover{
+    text-decoration: underline;
+}
+.img1Cards1{
+    padding-left: 280px;
+}
+/* Cards2 */
+.productsCards2{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards2:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards2{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards2{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards2:hover{
+    text-decoration: underline;
+}
+.img1Cards2{
+    padding-left: 280px;
+}
+/* Cards3 */
+.productsCards3{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards3:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards3{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards3{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards3:hover{
+    text-decoration: underline;
+}
+.img1Cards3{
+    margin-top: 22px;
+    padding-left: 280px;
+}
+/* Cards4 */
+.productsCards4{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards4:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards4{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards4{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards4:hover{
+    text-decoration: underline;
+}
+.img1Cards4{
+    padding-left: 280px;
+}
+/* Cards5 */
+.productsCards5{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards5:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards5{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards5{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards5:hover{
+    text-decoration: underline;
+}
+.img1Cards5{
+    margin-top: 22px;
+    padding-left: 280px;
+}
+/* Cards6 */
+.productsCards6{
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 15px;
+    width: 310px;
+    height: 410px;
+    border: 1px solid black;
+    background: #f7f8fb;
+    box-shadow: 1px 1px 2px 2px #636161;
+    transition: 0.4s;
+}
+.productsCards6:hover{
+    transition: 0.4s;
+    box-shadow: 1px 1px 2px 2px rgba(26, 25, 25, 0.877);
+}
+.imgCards6{
+    border-radius: 15px;
+    width: 310px;
+    height: 256px;
+}
+.TitlesCards6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.TextCards6{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.646);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TextCards6:hover{
+    text-decoration: underline;
+}
+.img1Cards6{
+    padding-left: 280px;
+}
+@media(max-width:1085px){
+    .productsDiv{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        background:#f7f8fb;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:750px){
+    .productsDiv{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+        justify-content: center;
+        background:#f7f8fb;
+        padding-left: 50px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:690px){
+    .productsDiv{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+        justify-content: center;
+        background:#f7f8fb;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .titlesPro {
+        padding-left: 0px;
+    }
+}
+@media(max-width:360px){
+    /* cards1 */
+    .productsCards1{
+        width: 280px;
+    }
+    .imgCards1{
+        width: 280px;
+    }
+    .img1Cards1 {
+        padding-left: 250px;
+    }
+    /* cards2 */
+    .productsCards2{
+        width: 280px;
+    }
+    .imgCards2{
+        width: 280px;
+    }
+    .img1Cards2 {
+        padding-left: 250px;
+    }
+    /* cards3 */
+    .productsCards3{
+        width: 280px;
+    }
+    .imgCards3{
+        width: 280px;
+    }
+    .img1Cards3 {
+        margin-top: 0px;
+        padding-left: 250px;
+    }
+    /* cards4 */
+    .productsCards4{
+        width: 280px;
+    }
+    .imgCards4{
+        width: 280px;
+    }
+    .img1Cards4 {
+        padding-left: 250px;
+    }
+    /* cards5 */
+    .productsCards5{
+        width: 280px;
+    }
+    .imgCards5{
+        width: 280px;
+    }
+    .img1Cards5 {
+        margin-top: 0px;
+        padding-left: 250px;
+    }
+    /* cards6 */
+    .productsCards6{
+        width: 280px;
+    }
+    .imgCards6{
+        width: 280px;
+    }
+    .img1Cards6 {
+        padding-left: 250px;
+    }
+}
+
+@media(max-width:340px){
+    /* cards1 */
+    .productsCards1{
+        width: 260px;
+    }
+    .imgCards1{
+        width: 260px;
+    }
+    .img1Cards1 {
+        padding-left: 230px;
+    }
+    /* cards2 */
+    .productsCards2{
+        width: 260px;
+    }
+    .imgCards2{
+        width: 260px;
+    }
+    .img1Cards2 {
+        padding-left: 230px;
+    }
+    /* cards3 */
+    .productsCards3{
+        width: 260px;
+    }
+    .imgCards3{
+        width: 260px;
+    }
+    .img1Cards3 {
+        margin-top: 0px;
+        padding-left: 230px;
+    }
+    /* cards4 */
+    .productsCards4{
+        width: 260px;
+    }
+    .imgCards4{
+        width: 260px;
+    }
+    .img1Cards4 {
+        padding-left: 230px;
+    }
+    /* cards5 */
+    .productsCards5{
+        width: 260px;
+    }
+    .imgCards5{
+        width: 260px;
+    }
+    .img1Cards5 {
+        margin-top: 0px;
+        padding-left: 230px;
+    }
+    /* cards6 */
+    .productsCards6{
+        width: 260px;
+    }
+    .imgCards6{
+        width: 260px;
+    }
+    .img1Cards6 {
+        padding-left: 230px;
+    }
+}
